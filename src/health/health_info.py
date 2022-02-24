@@ -1,6 +1,4 @@
-
 class HealthInfo:
-
     def __init__(self):
         self.data = {}
         self.summary = None

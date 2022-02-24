@@ -5,9 +5,8 @@ from src.health.status.health_down import StatusDown
 
 
 class HealthStatus:
-
     @classmethod
-    def ok(cls):  
+    def ok(cls):
         return StatusOk()
 
     @classmethod
@@ -17,7 +16,7 @@ class HealthStatus:
     @classmethod
     def warn(cls):
         return StatusWarn()
-    
+
     @classmethod
     def danger(cls):
         return StatusDanger()

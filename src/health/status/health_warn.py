@@ -1,5 +1,4 @@
 class StatusWarn:
-
     def description(self):
         pass
 

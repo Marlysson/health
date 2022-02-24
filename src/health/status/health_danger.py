@@ -1,5 +1,4 @@
 class StatusDanger:
-
     def description(self):
         pass
 

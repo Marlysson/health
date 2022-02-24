@@ -1,5 +1,4 @@
 class StatusDown:
-
     def description(self):
         pass
 

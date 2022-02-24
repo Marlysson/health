@@ -4,7 +4,6 @@ from masonite.packages import PackageProvider
 
 
 class HealthProvider(PackageProvider):
-
     def configure(self):
         self.root("health").name("health").commands()
 

@@ -1,5 +1,4 @@
 class StatusOk:
-
     def description(self):
         return "OK"
 

@@ -3,8 +3,8 @@ from src.health.health_result import HealthResult
 from src.health.components.database_component import DatabaseComponent
 from src.health.status.health_ok import StatusOk
 
-class TestMasoniteHealth(TestCase):
 
+class TestMasoniteHealth(TestCase):
     def test_database_component(self):
 
         health = DatabaseComponent()
@@ -15,4 +15,3 @@ class TestMasoniteHealth(TestCase):
 
         self.assertIsInstance(result, HealthResult)
         self.assertIsInstance(result.status, StatusOk)
-        
