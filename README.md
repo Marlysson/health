@@ -1,7 +1,7 @@
 # Masonite Health
 
 <p align="center">
-    <img src="https://banners.beyondco.de/Masonite Health.png?theme=light&packageManager=pip+install&packageName=masonite-health&pattern=topography&style=style_1&description=Package description in one line displayed e.g. in README&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Fgblobscdn.gitbook.com%2Fspaces%2F-L9uc-9XAlqhXkBwrLMA%2Favatar.png">
+    <img src="https://banners.beyondco.de/Masonite Health.png?theme=light&packageManager=pip+install&packageName=masonite-health&pattern=topography&style=style_1&description=A service to watch status of Masonite application's components&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Fgblobscdn.gitbook.com%2Fspaces%2F-L9uc-9XAlqhXkBwrLMA%2Favatar.png">
 </p>
 
 <p align="center">
@@ -19,20 +19,12 @@
 
 ## Introduction
 
-Package description in one line displayed e.g. in README
+A service to watch status of Masonite application's components
 
 ## Features
 
 - _Add your package main features here_
 - _and here_
-
-## Official Masonite Documentation
-
-New to Masonite ? Please first read the [Official Documentation](https://docs.masoniteproject.com/).
-Masonite strives to have extremely comprehensive documentation 😃. It would be wise to go through the tutorials there.
-If you find any discrepencies or anything that doesn't make sense, be sure to comment directly on the documentation to start a discussion!
-
-Have questions or want to talk? Be sure to join the [Masonite Discord Community](https://discord.gg/TwKeFahmPZ)!
 
 ## Installation
 
@@ -76,8 +68,11 @@ Please read the [Contributing Documentation](CONTRIBUTING.md) here.
 
 - [Marlysson](https://www.github.com/Marlysson)
 
-## License
+## Architecture
 
+![Masonite Health Architecture](architecture.png "Package Architecture")
+
+## License
 
 Masonite Health is open-sourced software licensed under the [MIT license](LICENSE).
 
