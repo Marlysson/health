@@ -1,4 +1,4 @@
 class HealthResult:
-    def __init__(self, info, status):
-        self.info = info
+    def __init__(self, component, status):
+        self.component = component
         self.status = status

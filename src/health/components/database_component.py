@@ -27,8 +27,8 @@ class DatabaseComponent(BaseComponent):
             resolver = self.application.make("resolver")
             resolver.statement("select 1", connection=connection)
 
-            return HealthResult(self.meta_health, HealthStatus.ok())
+            return HealthResult(self, HealthStatus.ok())
 
         except Exception as error:
             self.meta("reason", str(error))
-            return HealthResult(self.meta_health, HealthStatus.down())
+            return HealthResult(self, HealthStatus.down())

@@ -1,22 +1,22 @@
-from src.health.status.health_ok import StatusOk
-from src.health.status.health_danger import StatusDanger
-from src.health.status.health_warn import StatusWarn
-from src.health.status.health_down import StatusDown
+from src.health.status.ok import Ok
+from src.health.status.danger import Danger
+from src.health.status.warn import Warn
+from src.health.status.down import Down
 
 
 class HealthStatus:
     @classmethod
     def ok(cls):
-        return StatusOk()
+        return Ok()
 
     @classmethod
     def down(cls):
-        return StatusDown()
+        return Down()
 
     @classmethod
     def warn(cls):
-        return StatusWarn()
+        return Warn()
 
     @classmethod
     def danger(cls):
-        return StatusDanger()
+        return Danger()

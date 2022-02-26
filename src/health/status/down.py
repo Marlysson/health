@@ -1,4 +1,4 @@
-class StatusDown:
+class Down:
     def description(self):
         pass
 

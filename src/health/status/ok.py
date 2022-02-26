@@ -1,4 +1,4 @@
-class StatusOk:
+class Ok:
     def description(self):
         return "OK"
 
