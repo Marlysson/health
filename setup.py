@@ -13,6 +13,7 @@ setup(
         "health",
         "health.providers",
         "health.config",
+        "health.controllers",
     ],
     package_dir={"": "src"},
     description="Package description in one line displayed e.g. in README",
